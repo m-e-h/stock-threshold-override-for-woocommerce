@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ruleset name="Stock Threshold Override">
+	<description>WordPress coding standards and supported PHP compatibility.</description>
+	<file>stock-threshold-override-for-woocommerce.php</file>
+	<file>includes</file>
+	<arg name="extensions" value="php"/>
+	<arg value="sp"/>
+	<config name="testVersion" value="7.4-"/>
+	<rule ref="WordPress"/>
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="stock-threshold-override-for-woocommerce"/>
+			</property>
+		</properties>
+	</rule>
+	<rule ref="PHPCompatibilityWP"/>
+</ruleset>

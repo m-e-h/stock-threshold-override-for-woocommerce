@@ -1,0 +1,23 @@
+{
+  "name": "m-e-h/stock-threshold-override-for-woocommerce",
+  "description": "Per-product zero-stock thresholds for WooCommerce.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [{ "name": "Marty Helmick" }],
+  "require": { "php": ">=7.4" },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.13",
+    "wp-coding-standards/wpcs": "^3.2",
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "lint": "phpcs",
+    "build": "python3 tools/build-release.py"
+  }
+}

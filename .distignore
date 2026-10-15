@@ -1,0 +1,13 @@
+/.git
+/.github
+/.gitignore
+/.distignore
+/.phpcs.xml.dist
+/composer.json
+/composer.lock
+/vendor
+/node_modules
+/tests
+/tools
+/dist
+/README.md

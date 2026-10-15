@@ -1,0 +1,6 @@
+/vendor/
+/node_modules/
+/dist/
+/.phpcs-cache
+/composer.lock
+__pycache__/
